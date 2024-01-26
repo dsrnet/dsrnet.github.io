@@ -60,10 +60,12 @@ function myFunction() {
 document.getElementById("myBtn").style.display="none";
 document.getElementById("mtext").style.display="block";
 document.getElementById("myVideo").style.display="block";
-document.getElementById("myVideo").play();
+document.getElementById("myVideo2").play();
 document.getElementById("h11").style.display="none";
 document.getElementById("h21").style.display="none";
 document.getElementById("h22").style.display="block";
+document.getElementById("wel1").style.display="none";
+document.getElementById("wel2").style.display="block";
 
 }
 function myFunctionoeg() {
@@ -81,6 +83,12 @@ btn.style.display="none";
 </script>
 </head>
 <body style="text-align:center;">
+<div class="row">
+<div id="wel1"  class="mob30" style="border:solid thin grey;border-radius:1em;">
+ <!-- The video -->
+  <video autoplay muted loop id="myVideo" style="display:block;">
+  <source src="wolf-cs.mp4" type="video/mp4">
+</video>
 <div id="welcome" style="margin:1em 0;">
   <h1 id="h11">Lets us make the internet good again</h1>
 <h2 id="h21" style="color:purple;font-weight:normal;margin:0;font-style:italic;">&quot; And make some millions doing that &quot;</h2>
@@ -88,13 +96,17 @@ btn.style.display="none";
 <div id="md" style="padding:1em;padding-top:0.5em;color:darkblue;">Chief Messenger</div>
 <button id="myBtn" onclick="myFunction()">Enter</button>
 </div>
- <!-- The video -->
-  <video autoplay muted loop id="myVideo" style="display:block;">
+
+</div>
+<!-- Optional: some overlay text to describe the video -->
+
+<div id="wel2" class="mob30" style="border:solid thin grey;border-radius:1em;display:none;">
+<div class="content">
+  <video autoplay muted loop id="myVideo2" style="display:block;">
   <source src="wolf-cs.mp4" type="video/mp4">
 </video>
-
-<!-- Optional: some overlay text to describe the video -->
-<div class="content">
+<h2 id="h22d" style="color:grey;font-weight:normal;margin-bottom:0;font-style:italic;font-size:large;margin-top:0.1em;"><a style="color:black;" href="srk.pdf" target="_blank">D. Senthil Rajkumar</a></h2>
+<div id="mdd" style="padding:1em;padding-top:0.5em;color:darkblue;">Chief Messenger</div>
   <div id="mtext" style="display:none;">
   <div style="border:solid thin grey;background-color:none;color:black;width:fit-content;padding:0.5em 1em;margin:auto;border-radius:0.5em;">
 <h3 style="color:purple;">My Mission</h3>    
@@ -107,6 +119,7 @@ btn.style.display="none";
 <div style="padding:1em;padding-top:0.5em;">Overcome your greed & mistrust barriers created by corporate</div>
 <div><a style="color:white;text-decoration:none;" href="home.html"><h3 style="background-color:crimson;color:white; text-align:center;display:inline-block;border-radius: 10px;cursor:pointer;width:12em;padding:1em 0.5em;margin:0.5em;"><span style="font-size:large;text-decoration:none;">★ </span>How it works ?</h3></a></div>    
 <div style=""text-align:center;">Email : senark_us@yahoo.com</div><div style="text-align:center;font-size:smaller;color:wheat;">Chennai, India</div></div>
+</div>
   </div>
 
   <!-- Use a button to pause/play the video with JavaScript -->
