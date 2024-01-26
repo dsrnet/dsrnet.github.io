@@ -54,26 +54,9 @@ var video = document.getElementById("myVideo");
 // Get the button
 var btn = document.getElementById("myBtn");
 var mtext = document.getElementById("mtext");  
-
-// Pause and play the video, and change the button text
 function myFunction() {
 document.getElementById("myBtn").style.display="none";
 document.getElementById("myVideo2").play();
-document.getElementById("wel1").style.display="none";
-document.getElementById("wel2").style.display="block";
-
-}
-function myFunctionoeg() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-btn.style.display="none";
-    btn.style.display="block";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-
-  }
 }
 </script>
 </head>
@@ -81,14 +64,10 @@ btn.style.display="none";
 <div class="row" style="margin:0;padding:0.5em;">
 <div id=""  class="mob40" style="border:solid thin grey;border-radius:1em;">
 <div id="wel1" style="margin:1em 0;">
-<div class="row" style="margin:0;padding:0.5em;">
-<div id=""  class="mob40" style="border:solid thin grey;border-radius:1em;">
  <!-- The video -->
   <video autoplay muted loop id="myVideo" style="display:block;">
   <source src="wolf-cs.mp4" type="video/mp4">
 </video>
-</div>
-</div>
   <h1 id="h11">Lets us make the internet good again</h1>
 <h2 id="h21" style="color:purple;font-weight:normal;margin:0;font-style:italic;">&quot; And make some millions doing that &quot;</h2>
 <h2 id="h22" style="color:grey;font-weight:normal;margin-bottom:0;font-style:italic;font-size:large;margin-top:0.1em;"><a style="color:black;" href="srk.pdf" target="_blank">D. Senthil Rajkumar</a></h2>
@@ -99,15 +78,10 @@ btn.style.display="none";
 
 <!-- Optional: some overlay text to describe the video -->
 <div id=""  class="mob40" style="border:solid thin grey;border-radius:1em;">
-<div id="wel2" style="display:none;" class="content">
-<div class="row" style="margin:0;padding:0.5em;">
-<div class="mob40" style="border:solid thin grey;border-radius:1em;">
+<div id="wel2" style="" class="">
   <video autoplay muted loop id="myVideo2" style="">
   <source src="wolf-cs.mp4" type="video/mp4">
 </video>
-</div>
-</div>
-<div id=""  class="mob40" style="border:solid thin grey;border-radius:1em;">
 <h2 id="h22d" style="color:grey;font-weight:normal;margin-bottom:0;font-style:italic;font-size:large;margin-top:0.1em;"><a style="color:black;" href="srk.pdf" target="_blank">D. Senthil Rajkumar</a></h2>
 <div id="mdd" style="padding:1em;padding-top:0.5em;color:darkblue;">Chief Messenger</div>
   <div id="mtext" style="">
