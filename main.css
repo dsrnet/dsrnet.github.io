@@ -19,6 +19,6 @@ body { margin:0 auto; }
 
 .yellowh3 {
 text-align:center;background-color:maroon;padding:0.5em;margin:0 auto; font-weight:bold;border-radius:0.5em;color:white }
-.yellowtext { text-align:center;padding:0.5em;margin:1em 0;color:maroon; }
+.yellowtext { text-align:left;padding:0.5em;margin:1em 0;color:maroon; }
 
 .foot { background-color:darkgrey;padding:1em 0; }
